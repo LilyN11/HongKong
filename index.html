@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <script src="index.js"></script>
+  <meta charset="UTF-8">
+  <title>Chinese Project</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+  
+</head>
+
+
+<body>
+    <img src="cherry.png" style="position:fixed; border-left: 0px; top:0px">
+    <!--<img id="Pop" src="b1.png" style="visibility: hidden; position:fixed; border-left: 0px; top:0px">-->
+    <img src="cherry copy.png" style="position:fixed; right: 0px;top:0px"> 
+    <!--<img id="Pop2" src="b2.png" style="visibility: hidden; position:fixed; right:0px ; top:0px">-->
+  <section id=timeline>
+	<h1> 香港抗议史</h1>
+	<p class="leader">By Lily Nguyen (谢谢Johnny) </p>
+	<div id="big" class="demo-card-wrapper">
+		<div class="demo-card demo-card--step1">
+			<div class="head">
+				<div class="number-box">
+					<span>01</span>
+				</div>
+				<h2><span class="small"></span> 第一个抗议对着中国</h2>
+                <div>
+                <button onclick="zoom()" class="zoom"></button>
+                </div>
+			</div>
+			<div class="body">
+				<p id="1">一九九七年七月一日，英国把香港还给了中国。 从此，香港成为中国的一部分。 一九九六年由于中国政府将共产主义带入香港， 四百多人在香港会议中心外抗议。这是香港市民为自由和民主作斗争的开始。</p>
+				
+                <div id="1a" class="slideshow-container">
+                  <img class="mySlides1" src="961.jpg" style="width:100%; display:none;height:200px">
+                  <img class="mySlides1" src="962.jpg" style="width:100%;display:none;height:200px">
+                  <img class="mySlides1" src="963.jpg" style="width:100%;height:200px">
+              <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+
+                </div>
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step2">
+			<div class="head">
+				<div class="number-box">
+					<span>02</span>
+				</div>
+				<h2><span class="small"></span> 香港反国民教育科运动</h2>
+                 <button onclick="zoom2()" class="zoom"></button>
+                <div class="popup" onclick="myFunction()">
+                 <button class="collapsible" style="background-color: #F3405C"></button>
+                     <span class="popuptext" id="myPopup" style="background-color: #F3405C">我特别喜欢这项运动，因为它有很多学生参加。大部分的学生都像我都是高中生是，而且有些抗议者比我还年轻！演员这个运动之所以叫雨伞运动是因为人们不得不使用雨伞来保护自己收到催泪弹的袭击</span>
+                </div>
+               
+    
+        </div>
+			
+			<div class="body">
+				<p id="2">二零一二年， 香港特区政府给中小学介绍“道德与国民教育”课程。中国政府以为这个课程能教会高中生做守法的公民， 但是那没用。 不但生了更多的抗议， 而且更多的学生参加抗议</p>
+				<div id="2a" class="slideshow-container">
+                  <img class="mySlides2" src="u1.jpg" style="width:100%; display:none;height:200px">
+                  <img class="mySlides2" src="u2.jpg" style="width:100% ;display:none;height:200px">
+                  <img class="mySlides2" src="u3.jpg" style="width:100%;height:200px">
+                <img class="mySlides2" src="u4.jpg" style="width:100%;display:none;height:150px">
+
+                 <a class="prev" onclick="plusSlides2(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+			</div>
+            </div>
+		
+
+		<div class="demo-card demo-card--step3">
+			<div class="head">
+				<div class="number-box">
+					<span>03</span>
+				</div>
+				<h2><span class="small"></span> 在大学</h2>
+                <button onclick="zoom3()" class="zoom"></button>
+			</div>
+			<div class="body">
+				<p id="3" >二零一九，中国政府修订了逃犯条例。这次修订使很多人生气因为香港市民认为他们会失去自由。中国有报复不同意政府的人， 所以香港市民怕新逃犯条例将帮中国政府力人到中国监狱。</p>
+				<div id="3a" class="slideshow-container">
+                  <img class="mySlides3" src="e1.jpeg" style="width:100%; display:none;height:200px">
+                  <img class="mySlides3" src="e2.jpg" style="width:100%;display:none;height:200px">
+                  <img class="mySlides3" src="e3.jpg" style="width:100%;height:200px">
+                <img class="mySlides3" src="e4.jpeg" style="width:100%;height:200px">
+                <img class="mySlides3" src="e5.jpg" style="width:100%;height:200px">
+              <a class="prev" onclick="plusSlides2(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides2(1, 0)">&#10095;</a>
+			</div>
+		</div>
+        </div>
+
+		<div class="demo-card demo-card--step4">
+			<div class="head">
+				<div class="number-box">
+					<span>04</span>
+				</div>
+				<h2><span class="small"></span> 父母的爱</h2>
+                <button onclick="zoom4()" class="zoom"></button>
+			</div>
+			<div class="body">
+				<p id="4">最近的新闻中，警察包围了很多抗议者在一所大学。 警察关闭了所有出口，所以学生们得自手。警察用水枪，子弹和催泪弹带到学生离开. 这些学生没有足够的水，食物， 和医疗用品.另外警察向学生开枪的水对他们的健康不利。有些女学生将来不能有孩子。</p>
+				<div id="4a" class="slideshow-container">
+                  <img class="mySlides4" src="s1.jpeg" style="width:100%; display:none;height:200px">
+                  <img class="mySlides4" src="s2.jpg" style="width:100% ;display:none;height:200px">
+                  <img class="mySlides4" src="s3.jpg" style="width:100%;height:200px">
+                <img class="mySlides4" src="s4.jpeg" style="width:100%;display:none;height:150px">
+                <img class="mySlides4" src="s5.jpg" style="width:100%;display:none;height:150px">
+
+                 <a class="prev" onclick="plusSlides2(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides2(1, 1)">&#10095;</a>
+                </div>
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step5">
+			<div class="head">
+				<div class="number-box">
+					<span>05</span>
+				</div>
+				<h2><span class="small"></span> 我最喜欢的故事</h2> 
+                <button onclick="zoom5()" class="zoom"></button>
+                <div >
+                <!---<button onclick="showImage()">hi</button>-->
+         
+                </div>
+			</div>
+			<div class="body">
+				<p id="5" >关于抗议者父母的故事打动了我的心。抗议者被困在大学里时，很多父母在大学外面等警察让他们的孩子回家。那些父母怕他们的孩子死了。无论多少父母求警察， 警察还是包围了大学。父母说：“我们不会离开我们的孩子。我们不在乎自己的生活。 我们只要我们的孩子安全。我们希望这里的每个人都能回家。”</p>
+				 <iframe id="5a" iframe width="400" height="200" src="mem.mp4" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+        </div>
+    
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+function showImage(){
+ document.getElementById('Pop2').style.visibility="visible";
+ document.getElementById('Pop').style.visibility="visible";
+    }
+
+function zoom(){
+    var one= document.getElementById('1');
+    var onea= document.getElementById('1a');
+    
+    if (onea.style.visibility === "visible"){
+    one.style.fontSize="22pt";
+    one.style.lineHeight="22pt";
+    onea.style.visibility="hidden";
+   }
+    else {
+        one.style.fontSize="20px";
+    one.style.lineHeight="22px";
+        onea.style.visibility="visible";
+    }
+   
+}
+
+function zoom2(){
+    var two= document.getElementById('2');
+    var twoa= document.getElementById('2a');
+    
+    if (twoa.style.visibility === "visible"){
+    two.style.fontSize="22pt";
+    two.style.lineHeight="22pt";
+    twoa.style.visibility="hidden";
+   }
+    else {
+        two.style.fontSize="20px";
+    two.style.lineHeight="22px";
+        twoa.style.visibility="visible";
+    }
+   
+}
+
+function zoom4(){
+    var two= document.getElementById('4');
+    var twoa= document.getElementById('4a');
+    
+    if (twoa.style.visibility === "visible"){
+    two.style.fontSize="22pt";
+    two.style.lineHeight="22pt";
+    twoa.style.visibility="hidden";
+   }
+    else {
+        two.style.fontSize="20px";
+    two.style.lineHeight="22px";
+        twoa.style.visibility="visible";
+    }
+   
+}
+
+function zoom5(){
+    var two= document.getElementById('5');
+    var twoa= document.getElementById('5a');
+    
+    if (twoa.style.visibility === "visible"){
+    two.style.fontSize="22pt";
+    two.style.lineHeight="22pt";
+    twoa.style.visibility="hidden";
+   }
+    else {
+        two.style.fontSize="20px";
+    two.style.lineHeight="22px";
+        twoa.style.visibility="visible";
+    }
+   
+}
+
+    function zoom3(){
+    var two= document.getElementById('3');
+    var twoa= document.getElementById('3a');
+    
+    if (twoa.style.visibility === "visible"){
+    two.style.fontSize="22pt";
+    two.style.lineHeight="22pt";
+    twoa.style.visibility="hidden";
+   }
+    else {
+        two.style.fontSize="20px";
+    two.style.lineHeight="22px";
+        twoa.style.visibility="visible";
+    }
+   
+}
+    
+
+    var slideIndex2 = [1,1];
+var slideId2 = ["mySlides3", "mySlides4"]
+showSlides2(1, 0);
+showSlides2(1, 1);
+
+function plusSlides2(n, no) {
+  showSlides2(slideIndex2[no] += n, no);
+}
+
+function showSlides2(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId2[no]);
+  if (n > x.length) {slideIndex2[no] = 1}    
+  if (n < 1) {slideIndex2[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex2[no]-1].style.display = "block";  
+}
+</script>
+
+  
+  
+</body>
+</html>
