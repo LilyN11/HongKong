@@ -311,7 +311,7 @@ body {
 }
 
 .collapsible:after {
-  content: '\002B';
+  content: url(light%20bulb.jpg);
   color: white;
   font-weight: bold;
 margin-bottom: 5px !important;
